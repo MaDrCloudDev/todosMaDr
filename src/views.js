@@ -23,7 +23,7 @@ const renderTodos = () => {
     } else {
         const messageEl = document.createElement('p')
         messageEl.classList.add('empty-message')
-        messageEl.textContent = 'There are no to-dos to show'
+        messageEl.textContent = 'No to-dos to show'
         todoEl.appendChild(messageEl)
     }
 }
@@ -71,7 +71,7 @@ const generateSummaryDOM = (incompleteTodos) => {
     const summary = document.createElement('h2')
     const plural = incompleteTodos.length === 1 ? '' : 's'
     summary.classList.add('list-title')
-    summary.textContent = `You have ${incompleteTodos.length} todo${plural} left`
+    summary.textContent = `${incompleteTodos.length} todo${plural} left`
     return summary
 }
 
