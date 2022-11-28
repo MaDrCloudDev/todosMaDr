@@ -1,2 +1,2 @@
-# [my-to-do-app](https://madrtodoapp.netlify.app/) (desktop only)
-My to-do app
+# [my-to-do-app](https://madrtodoapp.netlify.app/)
+My to-do app I built using HTML, CSS, JavaScript, Babel, and Webpack
