@@ -55,7 +55,8 @@ const generateTodoDOM = (todo) => {
     todoEl.appendChild(containerEl)
 
     // Setup the remove button
-    removeButton.textContent = 'remove'
+    removeButton.textContent = 'X'
+    removeButton.ariaLabel = 'Remove list item'
     removeButton.classList.add('button', 'button--text')
     todoEl.appendChild(removeButton)
     removeButton.addEventListener('click', () => {
