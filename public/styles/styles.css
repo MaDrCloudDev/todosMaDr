@@ -1,22 +1,4 @@
-/*
-
-// Colors
-$off-black: #20222b;
-$dark-blue: #333745;
-$blue: #3c4251;
-$light-blue: #464b5e;
-$off-white: #a5afd7;
-$purple: #8357c5;
-// Spacing
-$s-size: 1.2rem;
-$m-size: 1.6rem;
-$l-size: 3.2rem;
-$xl-size: 4.8rem;
-$desktop-breakpoint: 45rem;
-
-*/
-
-/* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -29,9 +11,9 @@ html {
 }
 
 body {
-    background: #2B292E;
+    background: black;
   color: #fafafa;
-  font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
 }
 
@@ -43,39 +25,31 @@ a {
     color: #338eef;
 }
 
-/* Container */
-
 .container {
   max-width: 60rem;
   margin: 0 auto;
   padding: 0 1.6rem;
 }
 
-/* Header */
 
 .header {
-  background: #338eef;
   color: white;
   padding: 1.6rem 0;
 }
 
 .header__title {
+    color:#328eef;
   font-size: 3.2rem;
   margin-bottom: .4rem;
 }
 
 .header__subtitle {
-  /* color: #777; */
+    color: #fffb00;
   font-size: 2rem;
   font-weight: 300;
 }
 
-/* Actions Bar */
-
 .actions {
-    background-color: #353239;
-    /* border-bottom: 1px solid #dedfe0; */
-    /* color: #333333; */
     padding: 1rem
 }
 
@@ -92,10 +66,11 @@ a {
     justify-content: space-between
 }
 
-/* Form Inputs */
 
 .input {
-    border: none;
+    color: white;
+    background-color: black;
+    border: solid #7f7d76 1px;
     font-size: 1.4rem;
     font-weight: 300;
     height: 3rem;
@@ -138,6 +113,7 @@ a {
 }
 
 .button--text {
+    font-size: 2rem;
     background: none;
     border: none;
     color: #D0342C;
@@ -146,10 +122,8 @@ a {
 .button--text:hover {
     background: none;
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
-
-/* Note editor */
 
 .title-input {
     border: 1px solid #DEDFE0;
@@ -172,8 +146,6 @@ a {
     padding: .8rem;
     width: 100%;
 }
-
-/* Note List Item */
 
 .list-item {
     text-decoration: none;
