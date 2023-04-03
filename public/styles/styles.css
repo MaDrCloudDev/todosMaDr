@@ -39,13 +39,13 @@ a {
 
 .header__title {
     color:#328eef;
-  font-size: 3.2rem;
+  font-size: 4rem;
   margin-bottom: .4rem;
 }
 
 .header__subtitle {
     color: #fffb00;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
 }
 
@@ -67,10 +67,10 @@ a {
 .input {
     color: white;
     background-color: black;
-    border: solid #7f7d76 1px;
+    border: solid #7f7d76 .2rem;
     font-size: 1.4rem;
     font-weight: 300;
-    height: 3rem;
+    height: 4rem;
     margin-right: 1.6rem;
     padding: .4rem .8rem;
 }
@@ -89,7 +89,8 @@ a {
     border: none;
     border-bottom: 2px solid black;
     color: white;
-    font-size: 1.4rem;
+    height: 3.9rem;
+    font-size: 1.6rem;
     font-weight: 600;
     padding: .8rem;
     transition: background .3s ease, color .3s ease;
@@ -166,6 +167,7 @@ a {
 
 .list-title {
     margin: 1rem 0 1rem;
+    font-size: 2rem;
 }
 
 .empty-message {
