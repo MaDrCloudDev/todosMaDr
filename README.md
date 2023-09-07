@@ -1,2 +1,2 @@
-# [todoApp](https://todoapp.MaDr.io)
+# [todoApp](https://todosmadr.madr.io)
 My todo app I built using HTML, CSS, JavaScript, Babel, & Webpack
